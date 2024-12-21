@@ -4,7 +4,7 @@
 
 Clone this package in the `src` folder of your ROS 2 workspace. Check for missing dependencies
 ```
- git clone https://github.com/GUM-i-RO/RL_Homework4.git
+ git clone https://github.com/MatteoRusso5/RL_HW4.git
 
 ```
 Build your new package
