@@ -64,7 +64,7 @@ def main():
             order = ["goal_11", "goal_0"]
 
 
-        ordered_goals = [goal for name in order for goal in waypoints["goals"] if goal["name"] == name]
+        ordered_goals = [goal for name in order for goal in waypoints["goals"] if goal["name"] == name] // nested list 
 
         def create_pose(transform):
             pose = PoseStamped()
