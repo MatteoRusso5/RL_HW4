@@ -84,7 +84,7 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'camera_frame', 
             default_value='camera_link_optical',
-            description='Metodo di affinamento degli angoli del marker.'
+            description=''
         ),
     
     ]
