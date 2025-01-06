@@ -66,7 +66,7 @@ def main():
 
         ordered_goals = [goal for name in order for goal in waypoints["goals"] if goal["name"] == name] # nested list 
 
-        def create_pose(transform):
+        def create_pose(transform): # function to assign the goals
             pose = PoseStamped()
             pose.header.frame_id = 'map'
             pose.header.stamp = navigator.get_clock().now().to_msg()
