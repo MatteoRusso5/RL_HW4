@@ -87,7 +87,7 @@ def main():
 
 
         # Wait for navigation to fully activate, since autostarting nav2
-        navigator.waitUntilNav2Active(localizer="smoother_server")
+        navigator.waitUntilNav2Active(localizer="smoother_server") # waits until the file explore is launched 
 
         # sanity check a valid path exists
         # path = navigator.getPath(initial_pose, goal_pose)
