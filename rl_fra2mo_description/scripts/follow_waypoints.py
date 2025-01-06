@@ -93,7 +93,7 @@ def main():
         # path = navigator.getPath(initial_pose, goal_pose)
 
         nav_start = navigator.get_clock().now()
-        navigator.followWaypoints(goal_poses)
+        navigator.followWaypoints(goal_poses) # goal_poses must be a list of PoseStamped
 
         i = 0
         while not navigator.isTaskComplete():
