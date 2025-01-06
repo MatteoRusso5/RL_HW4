@@ -82,7 +82,7 @@ def main():
 
 
         # goal_poses = list(map(create_pose, waypoints["goals"]))
-        goal_poses = list(map(create_pose, ordered_goals))
+        goal_poses = list(map(create_pose, ordered_goals)) # map applies the function create_pose at each components of the ordered_goals
 
 
 
